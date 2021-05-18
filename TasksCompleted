@@ -1,0 +1,30 @@
+Encapsulation
+Inheritence 
+Polymorphism
+Garbage Collector working in Java
+Concrete subclass - class which has the implementation of an abstract superclass that is extended.
+Access Modifiers - Private, Default, Protected, Public.
+Non Access Modifiers - Static, Final, Abstract,
+					   Synchronized - method can be accessed by only one thread at a time,
+					   Transient - An instance variable is marked transient to indicate the JVM to skip the particular variable when 									   serializing the object containing it.
+					   Volatile - 
+Overridden Methods
+Overloaded Methods
+Refernce Variable Casting - Upcasting, Downcasting.
+Overloaded Constrcutor
+Static variables and methods
+Coupling and Cohesion
+Casting Primitives
+Does Java Use Pass-By-Value Semantics?
+Handling Exceptions
+Catching an Exception Using try and catch
+Using finally
+Propagating Uncaught Exceptions
+Defining Exception 
+Exception Hierarchy
+
+
+Left Outs - 
+
+instanceOf
+volatile non-access modifier
