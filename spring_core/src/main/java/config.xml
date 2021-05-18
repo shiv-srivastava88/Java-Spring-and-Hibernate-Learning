@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- This is one way of writing bean -->
+	<bean class="com.spring_core.spring_core.Student" name="Student1">
+		<property name="studentId" value="180898" />
+
+		<property name="studentName" value="Shivansh Srivastava" />
+
+		<property name="studentAddress" value="Kanpur" />
+
+	</bean>
+
+	<!-- This is another way of writing bean using p tag -->
+	<bean class="com.spring_core.spring_core.Student" name="Student2"
+		p:studentId="180899" p:studentName="Shivanshu Saxena"
+		p:studentAddress="Kanpur" />
+
+</beans>
